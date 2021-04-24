@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
   
+img {max-width:100%;}
 
 * {
     margin:0;
@@ -10,16 +11,17 @@
     }
 
 .menu img {
-    width: 60px;
+    width: 30px;
     margin-right: 15px;
 }
 
 .masthead img {
-    width: 400px;
+    width: 180px;
 }
 
 .masthead{
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .navbar{
@@ -36,4 +38,17 @@
 
 .background {
     width: 100%;
+}
+
+
+.degrade {
+    /* background: linear-gradient(green, white,); */
+    background: linear-gradient(#89e664ab, #91e5be);
+}
+
+.degrade h2 {
+color: white;
+font-size: 30px;
+text-align: center;
+text-transform: uppercase;
 }
